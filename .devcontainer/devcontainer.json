@@ -32,10 +32,11 @@
 			"extensions": [
 				"mtxr.sqltools",
 				"mtxr.sqltools-driver-pg",
-				"ms-python.python"
+				"ms-python.python",
+				"ms-azuretools.vscode-docker"
 			]
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -50,7 +51,7 @@
 	// "shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "cat /etc/os-release",
+	"postCreateCommand": "python manage.py runserver 0.0.0.0:8000"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
