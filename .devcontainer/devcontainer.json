@@ -33,7 +33,9 @@
 				"mtxr.sqltools",
 				"mtxr.sqltools-driver-pg",
 				"ms-python.python",
-				"ms-azuretools.vscode-docker"
+				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-docker",
+				"batisteo.vscode-django"
 			]
 		}
 	},
